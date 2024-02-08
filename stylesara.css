@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+:root
+{
+	--green: green;
+	--black: #130f40;
+	--light-color: #666; 
+	--box-shadow: 0.1rem 0.05rem rgba(0,0,0.1);
+	--border: 2rem solid rgba(0,0,0.1);
+	--outline: 0.1rem solid rgba(0,0,0.1)
+}
+*
+{
+	font-family:  'Poppins',sans-serif;
+	margin: 0;
+	paddding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	text-transform: capitalze;
+	transition: all .2s linear;
+}
+html
+{
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	scroll-padding-top: 7rem;
+}
+body
+{
+	background: #eee;
+}
+.btn 
+{
+	border: 1px solid var(--black);
+	border-radius:0.5rem;
+	margin-top: 1rem;
+	display: inline-block;
+	padding: 0.9rem 4rem;
+	font-size: 1.5rem;
+	color: var(--black);
+	cursor: pointer;
+}
+.btn:hover
+{
+	background: var(--green);
+	color: #fff;
+}
+.header
+{
+    border: 0px solid;
+    position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    padding: 1rem 9%;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+}
+.header .logo
+{
+	font-size: 2.5rem;
+	font-weight: bolder;
+}
+.header .logo i
+{
+	color: var(--green);
+}
+.header .navbar a
+{
+	font-size: 1.7rem;
+	margin: 0.1rem;
+	color: var(--black);
+
+}
+.header .navbar a:hover
+{
+	color: var(--green); 
+}
+.header .icons div
+{
+	border:  0px solid;
+	height: 4.5rem;
+	width: 4.5rem;
+	line-height: 4.5rem;
+	border-radius: 0.5rem;
+	background: #eee;
+	color: var(--black);
+	font-size: 2rem;
+	margin-right: 0.3rem;
+	text-align: center;
+	cursor: pointer;
+}
+ .header .search-form
+ {
+ 	border: 0px solid;
+ 	position: absolute;
+ 	top: 120%;
+ 	right:  110%;
+ 	max-width: 25rem;
+ 	height: 4rem;
+ 	background: #fff;
+ 	border-radius: =0.2rem;
+ 	overflow: hidden;
+ 	display: flex;
+ 	align-items: center;
+ 	box-shadow: var(--box-shadow);
+ }
+
+  .header .search-form
+  {
+  	right: 2rem;
+  	transition: 0.4s linear;
+  }
+ .header .search-form input
+ {
+ 	height: 100%;
+ 	width: 100%;
+ 	background: none;
+ 	text-transform: none;
+ 	font-size: 1.6rem;
+ 	color: var(--black);
+ 	padding: 1.5rem;
+}
+ .header .search-form label
+ {
+ 	font-size: 2.2rem;
+ 	padding-right: 1.5rem;
+ 	color: var(--black);
+ 	cursor: pointer;
+ }
+img
+{
+	display: block;
+    margin:  0 auto;
+}

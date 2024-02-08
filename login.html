@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--internal css-->
+	<style>
+  	input {width:300px;}
+  	body
+	{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 5px;
+	text-shadow: 1px 1px 2px pink;
+	margin-top: 5px;
+	font-family: "Times New Roman",serif;
+	}
+	button
+	{
+	background-color: #555555;
+	color: white;
+	align-items: center;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	}
+	label
+	{
+		color: black;
+	}
+	input
+	{
+	color: black;
+	padding: 5px 5px;
+	margin: 8px 0;
+	box-sizing: content-box;
+	border: 2px solid black;
+	}
+	
+	.button
+	{
+	position: all;
+	top: 50%;
+	min-height:30px; 
+    min-width: 120px;
+    margin-right: 10px;
+    margin-left: 5px;
+    }
+	.container3
+	{
+	text-align: left;
+	float:right;
+	margin: 100px;
+	margin-top: 160px;
+	margin-right: 120px;
+	height: 360px;
+	width: 300px;
+	padding: 20px;
+	background-color:  #e6e6e6;
+	font-size: 25px
+	}
+	.check_box
+	{
+	text-align: center;
+	display: inline-grid;
+	font-size: 20px;
+    }
+
+
+</style>
+<!--name of the webpage-->
+<title>Login Details</title>
+</head>
+<!--inline css-->
+<body style="background-size: 1450px 750px;" background="log.jpg">
+
+<form action="action_page.php" class="container3">
+	<br><label>Username</label><br>
+	<input type="text" id="uname"><br><br>
+	<label>Password </label><br>
+	<input type="password" id="pwd"><br>
+	<label class="check_box">
+    <input type="checkbox" checked="checked" name="remember">Remember me
+	</label><br><br>
+	<!--formacation is used for linking between webpages-->
+	<button type="submit" class="button" formaction="home.html">Login</button>
+	<!--formacation is used for linking between webpages-->
+	<button type="submit" class="button" formaction="newuser.html">New User</button>
+
+
+</form>
+</body>
+</html>

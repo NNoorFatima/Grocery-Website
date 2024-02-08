@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--name of the webpage-->
+	<title>New User</title>
+
+	<!--code for font awesome  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--code for font awesome  -->
+
+	<!--code for how webpage will look-->
+<style>
+  	input {width:300px;}
+  	body
+	{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 5px;
+	text-shadow: 1px 1px 2px pink;
+	margin-top: 5px;
+	font-family: "Times New Roman",serif;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1500px 1500px;
+	}
+	button
+	{
+	background-color: #555555;
+	color: white;
+	align-items: center;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	}
+	label
+	{
+		color: black;
+	}
+	
+	input
+	{
+	color: black;
+	padding: 5px 5px;
+	margin: 8px 0;
+	box-sizing: content-box;
+	border: 2px solid black;
+	}
+	.container3
+	{
+	text-align: left;
+	float:right;
+	margin: 50px;
+	height: 600px;
+	width: 300px;
+	padding: 30px;
+	background-color:  #e6e6e6;
+	font-size: 25px
+	}
+	.button
+	{
+	position: all;
+	top: 50%;
+	min-height:30px; 
+    min-width: 120px;
+	}
+
+
+</style>
+	<!--inline css. attacthing image using inline csss and resizing it to fit the browser screen-->
+	<body style="background-size: 1500px 900px;" background="nuser.png">
+
+	
+	<form action="/action_page.php" name="newuser" class="container3">
+	<label>Name</label><br>
+	<input type="text" id="name"><br><br>
+	<label>Email </label><br>
+	<input type="Email" id="email"><br><br>
+	<label>Contact Number </label><br>
+	<input type="text" id="pno"><br><br>
+	<label>Password </label><br>
+	<input type="password" id="pwd"><br><br>
+	<label>Confirm Password </label><br>
+	<input type="password" id="newpassword"><br><br>
+	<!--formacation is used for linking between webpages-->
+	<button type="submit" class="button" value="Log In" onclick="validation()" formaction="home.html">Register</button>
+	<!--formacation is used for linking between webpages-->
+	<button type="submit" class="button" formaction="login.html">Cancel</button>
+	</form>
+
+
+
+</body>
+
+</head>
+
+</html>
